@@ -1,0 +1,42 @@
+[project]
+name = "katas-python"
+version = "0.1.0"
+description = "Katas Python para fundamentos, preparatorios de los proyectos ESP32."
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.39.2",
+    "pytest>=9.0.3",
+    "ruff>=0.15.11",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["bloques"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "N",
+    "UP",
+    "B",
+    "SIM",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.basedpyright]
+include = ["bloques"]
+typeCheckingMode = "standard"
+pythonVersion = "3.14"
