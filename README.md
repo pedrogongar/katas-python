@@ -71,7 +71,7 @@ Ver `ROADMAP-KATAS-PYTHON.md` para la planificación de bloques y la lista detal
 
 | Kata | Bloque | Proyecto ESP32 | Dificultad | Estado |
 |---|---|---|---|---|
-| kp01 — variables_y_tipos | 1 | 01 LED toggle | ★ | Pendiente |
+| kp01 — variables_y_tipos | 1 | 01 LED toggle | ★ | Completado |
 | kp02 — condicionales | 1 | 01 LED toggle | ★ | Pendiente |
 | kp03 — funciones | 1 | 01 LED toggle | ★ | Pendiente |
 | kp04 — strings_y_metodos | 1 | 01 LED toggle | ★★ | Pendiente |
